@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+      <meta charset="Utf-8"> 
+      <meta name="Author" content="Melvin E Millayes Cardona E00543677" > 
+      <meta name="description" content="Proyecto final. Curso: Web page Development. Universidad Interamericana de Puerto Rico, Recinto Aguadilla" >
+      <meta name="keywords" content="Cafe, cofeeshop, puertorico, oeste">
+      <link  href="include/style.css" rel="stylesheet" >
+      <title>El cafetin Gourmet</title> 
+      <script>
+          function validateForm() {
+              var x= document.forms["contactForm"]["email"].value;
+              if (x == null || x=="")
+              alert("Debe entrar su correo electronico");
+              return false;
+          }
+      </script>
+      
+    </head>
+    <body>
+        <header>
+            <div id="shop-name"><h1>El cafetin Gourmet</h1><img id="shop-logo" src="images/cofee logo.jfif" width="100px" height="100p alt="Logo"></div>
+            <nav>
+                <span><a href="index.html" class="menunav">Inicio</a></span>
+                <span><a href="menu.html" class="menunav">Menu</a></span>
+                <span><a href="contactenos.html" class="menunav">Contactenos</a></span>
+                <span><a href="conocenos.html" class="menunav">Conocenos</a></span>
+                <span><a href="fotos.html" class="menunav">Fotos</a></span>
+
+            </nav>
+        </header>
+        <main>
+
+            <h1>Contactenos</h1>`
+            
+            <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Inter%20American%20University%20of%20Puerto%20Rico%20-%20Aguadilla%20Campus,%20Aguadilla%20Pueblo,%20Aguadilla&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.org">embed google maps</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
+            <br>
+            <p>Escribanos</p>
+            <form method="post" onsubmit="return validateForm()" id="contactForm">
+                Entre su nombre:
+                <input type="text" name="nombre">
+                <br/>
+                Entre su correo electronico:
+                <input type="text" name="email" id="email">
+                <br/>
+                Asunto:
+                <input type="text" name="asunto">
+                </br>
+                Comentarios:
+                <input type="text" name="comentarios">
+                <br>
+                <input type="submit" value="someter">
+            </form>
+        </main>
+        <br>
+        <footer>
+            <p>Pagina creada por Melvin E. Millayes</p>
+            <a href="https://aguadilla.inter.edu/" target="_blank" >Inter Aguadilla</a>
+            <br>
+            <a href="http://www.inter.edu/" target="_blank">Universidad Interamericana</a>
+            <br>
+            <a href="http://web.inter.edu/" target="_blank">Servicios en Linea</a>
+            <a href="http://cai.inter.edu/" target="_blank">Centro de Acceso a la Informacion</a>
+        </footer>
+    </body>            

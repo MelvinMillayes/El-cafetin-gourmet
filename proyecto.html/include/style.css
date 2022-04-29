@@ -1,0 +1,161 @@
+
+*{
+    box-sizing: border-box;
+}
+
+header{
+    background-color:white;
+    
+
+    
+
+    }
+    #shop-name{
+        text-align: left;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:tan;
+        position: relative;
+        padding: 2px;
+        border:2px
+      
+
+    }
+
+    #logo{
+        text-align: left;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color:rgb(22, 21, 21);
+        position:relative;
+       
+        
+    }
+    #shop-name{
+        position: relative;
+        left: 10px;
+        padding: 5, 0,;
+        margin: 2px;
+       
+    }
+    #shop-logo{
+        position:relative;
+        left: 400px;
+        bottom: 80px; 
+
+    }
+body{
+background-color: rgb(233, 212, 175);
+
+   
+}
+nav {
+	position: relative;
+	background-color:rgb(151, 110, 56);
+	height:auto;
+	padding:0, 0, 1px;
+    border: 1px;
+    text-align: center;
+    font-size: 30px;
+}
+a.menunav:link, a.menunav:active, a.menunav:visited{
+
+  color: rgb(33, 41, 48);
+  text-decoration:none ;
+}
+a.menunav:hover {
+    color: rgb(145, 103, 49);
+}
+.menunav{
+    text-align: center;
+    padding: 5px;
+    border: 1px;
+    margin:5px;
+}
+#banner{
+   text-align:center ;
+   margin-top: 10px;
+   position: relative;
+   left: 20px;
+}
+h1, h2{
+    position: relative;
+    left:50px
+}
+main{
+    align-content: center;
+	position:relative;
+    
+	
+}
+
+.productos {
+    
+	width: 200px;
+	height: 250px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 5%;
+	margin-right: 5px;
+	display: inline-block;
+    border: 20px;
+    border-spacing: 50px;
+	
+		
+    
+    
+	
+	
+}
+#fotos-menu{
+    text-align: center;
+    position: relative;
+    right: 50px;
+}
+#cabeza{
+    background-color: rgb(36, 32, 24);
+    padding: auto;
+}
+#tabla-menu{
+    padding-bottom: 300px;
+
+    text-align: center;
+    color:white;
+    position:relative;
+    left: 400px;
+    
+
+}
+td{
+    text-align: center;
+    padding: 50px;
+    position: relative;
+}
+#cuerpo{
+    background-color: black;
+}
+#navidad{
+    padding-bottom: 300px;
+
+    
+    color:black;
+    position:relative;
+    left: 350px;
+}
+form{
+    background-color:rgb(36, 32, 24) ;
+    padding: 20px;
+    color: white;
+}
+.fotos{
+    text-align: center;
+    padding: 10px;
+    border: 10px;
+    position: relative;
+    left: 450px;
+    top:10px;
+}
+footer{
+    height: 100px;
+    
+    border: 20px;
+    background-color: rgb(238, 235, 232);
+}
